@@ -1,5 +1,9 @@
-INETD
+Puppet-InetD
 ===
 
-Puppet module to setup inetd.
+A puppet module to install inetd for inetd-assisted services.
 
+Usage
+---
+
+    include inetd
