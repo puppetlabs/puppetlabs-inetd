@@ -23,8 +23,9 @@ class inetd {
   }
 
   service { "openbsd-inetd":
-    enable => true,
-    ensure => running;
+    enable    => true,
+    ensure    => running,
+    hasstatus => true;
   }
 
 }
